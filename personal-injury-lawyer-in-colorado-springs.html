@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Heuser & Heuser, LLP | Personal Injury Lawyer in Colorado Springs</title>
+    <meta name="description" content="Personal Injury Lawyer in Colorado Springs">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://heuserlaw.com/wp-content/themes/heuser-law/assets/favicon/favicon-96x96.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Heuser & Heuser, LLP | Personal Injury Lawyer in Colorado Springs">
+    <meta property="og:description" content="Personal Injury Lawyer in Colorado Springs">
+    <meta property="og:image" content="project-media/104/Heuser01.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/104/Heuser01.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="Personal Injury Lawyer in Colorado Springs home">Personal Injury Lawyer in Colorado Springs</a>
+            </h1>
+            <div><a href="https://www.facebook.com/heuserlaw" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://www.instagram.com/heuserlaw/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i><span class="visually-hidden">Instagram</span></a><a href="https://x.com/HeuserLawLLP" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/104/Heuser01.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">Heuser & Heuser, LLP</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Early Decisions Shape Injury Outcomes</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>After an injury, practical concerns can accumulate quickly, from managing changes at work and home to responding to requests for information. A private discussion with <a href="https://s3.us-east-005.dream.io/heuserheuserllp-01/personal-injury-lawyer-in-colorado-springs.html" class="inline-link">Personal Injury Lawyer in Colorado Springs</a> may distinguish routine paperwork from documents that could affect legal rights. Before signing a release or giving a recorded statement, a person may ask Personal Injury Lawyer in Colorado Springs whether the request is appropriately limited and what consequences may follow.</p>
+                            <p>Clear documentation is useful when an incident affects household responsibilities, scheduled activities, or ordinary routines. A dated log of limitations, schedule changes, interrupted plans, and communications gives later conversations a concrete foundation. Organizing those materials with Personal Injury Lawyer in Colorado Springs can create a coherent file, while Personal Injury Lawyer in Colorado Springs may flag unclear terms, broad releases, or provisions that affect future options.</p>
+                            <p>Legal planning is more useful when it accounts for both immediate constraints and longer-term needs. An assessment by Personal Injury Lawyer in Colorado Springs can weigh the advantages and risks of negotiation or litigation and establish a measured course for the matter. That process reduces avoidable confusion, preserves room to reassess, and keeps the person's priorities at the center of future communications.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/105/Heuser02.jpg" loading="lazy" decoding="async" alt="Personal Injury Lawyer in Colorado Springs image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">How Injury Counsel Builds Cases</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A sound legal file starts with a structured review of the available information. A consultation with Personal Injury Lawyer in Colorado Springs can help preserve relevant records and communications while details remain accessible. The review may also identify gaps, conflicting accounts, or questions that call for additional inquiry. Once that foundation is established, a strategy session with Personal Injury Lawyer in Colorado Springs can organize the facts around the duties, decisions, and relationships that matter under applicable law. Establishing that framework early makes later analysis more efficient and reduces the risk that an important issue will be overlooked.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Next, the legal theory is tested against governing rules and the record. A review by Personal Injury Lawyer in Colorado Springs can match each required element to admissible support, while possible defenses and jurisdictional issues are assessed before positions harden. Further work with Personal Injury Lawyer in Colorado Springs may involve technical consultation and careful testing of documents, followed by responses to predictable challenges. This process separates established facts from matters that need corroboration and helps shape a clear position for negotiation or formal proceedings.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/yjovJJv9bk4?si=NlaYzbWniVdHJvNO" loading="lazy" title="Personal Injury Lawyer in Colorado Springs video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Finally, the file should explain both the harm and the remedy sought. With legal guidance from Personal Injury Lawyer in Colorado Springs, a client can review the documented economic and personal effects of the event without relying on broad estimates alone. Clear updates help a client weigh available resolution options and personal priorities as the matter develops. A disciplined presentation links reliable proof to the legal standard and states the requested relief precisely, giving decision-makers a practical basis for evaluating the claim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Colorado Springs Legal Guidance Nearby</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>After an unexpected injury, a person may benefit from learning what legal options exist before making major decisions. Personal Injury Lawyer in Colorado Springs can explain how responsibility may be assessed, what forms of recovery may be available, and which procedural choices could affect the matter. A discussion with Personal Injury Lawyer in Colorado Springs may also help set realistic expectations about negotiation, mediation, or a court case without promising a particular result.</p>
+                            <p>Selecting a representative involves more than comparing advertisements or choosing the first office that responds. Personal Injury Lawyer in Colorado Springs can describe relevant experience, anticipated stages, communication practices, and the role the client will play in important decisions. Before an engagement begins, a prospective client should ask Personal Injury Lawyer in Colorado Springs about fees, expenses, timelines, and how updates will be handled, so the relationship starts with clear expectations.</p>
+                            <p>As circumstances develop, steady communication can help keep legal work aligned with a person's priorities and practical needs. Personal Injury Lawyer in Colorado Springs may evaluate proposed resolutions, explain the advantages and drawbacks of different options, and prepare the client for formal proceedings if a negotiated outcome is not appropriate. Asking questions, sharing meaningful changes, and considering advice carefully can support a more informed decision-making process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>Heuser & Heuser, LLP</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.51618357237!2d-104.82425479999999!3d38.843539799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8713453fa5fba399%3A0x5fdf9cc81796bf0b!2sHeuser%20%26%20Heuser%20LLP%20-%20Colorado%20Springs%20Personal%20Injury%20Lawyers%20%26%20Car%20Accident%20Attorneys!5e0!3m2!1sen!2sus!4v1791280012483!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">Heuser & Heuser, LLP</p>
+                    <p style="color: #000000;">625 N Cascade Ave #300,Colorado Springs, CO 80903</p>
+                    <p style="color: #000000;">(719) 427-4912</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Heuser & Heuser, LLP </h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="Personal-Injury-Lawyer-in-Colorado-Springs.html" rel="noopener">Company Website</a></li>    <li><a class="link-light footer-link" href="https://heuserlaw.com/" rel="noopener">https://heuserlaw.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Useful Links</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Early Decisions Shape Injury Outcomes</a></li>    <li><a class="link-light footer-link" href="https://heuserlaw.com/" rel="noopener">How Injury Counsel Builds Cases</a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/KJj72tMsCyLpLkYF8" rel="noopener">Colorado Springs Legal Guidance Nearby</a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="https://www.facebook.com/heuserlaw" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://x.com/HeuserLawLLP" rel="noopener">Twitter</a></li>    <li><a class="link-light footer-link" href="https://www.instagram.com/heuserlaw/" rel="noopener">Instagram</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="Colorado, United States">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>Colorado, United States</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.durangoherald.com/articles/news/u-s-highway-550-a-century-of-history-in-southwest-colorado/" target="_blank" rel="noopener noreferrer"><h3>U.S. Highway 550: A century of history in Southwest Colorado</h3><img src="https://imengine.public.prod.dur.navigacloud.com/?uuid=BC1B0E4B-2692-47D3-9A87-2945FB62DD13&amp;function=cover&amp;type=preview&amp;source=false&amp;width=1280&amp;height=853" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Highway expert Mick Souder traces the development of one of Colorado’s most scenic roads</p><div class="safe-news-meta">durangoherald.com - 1h</div></a><a class="safe-news-card" href="https://www.bennet.senate.gov/2026/10/15/bennet-visits-u-s-pacific-command-japan-and-taiwan-to-deepen-cooperation-underscore-support-for-strengthened-indo-pacific-deterrence/" target="_blank" rel="noopener noreferrer"><h3>Bennet Visits U.S. Pacific Command, Japan, and Taiwan to Deepen Cooperation, Underscore Support for Strengthened Indo-Pacific Deterrence</h3><img src="https://www.bennet.senate.gov/wp-content/uploads/2026/10/image.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>From left: American Institute in Taiwan Acting Director Judy Kuo, Senator Michael Bennet, Taiwan President Lai Ching-te, and Secretary-General of Taiwan’s National Security Council Joseph Wu Denver — Colorado U.S. Senator Michael Bennet, a member of the Senate Select Committee on Intelligence (SSCI), recently concluded a visit to Japan and Taiwan, during which he met […]</p><div class="safe-news-meta">bennet.senate.gov - 16h</div></a><a class="safe-news-card" href="https://www.wyomingnews.com/rawlinstimes/i-want-to-stop-us-from-being-colorado-bextel-shares-her-vision-for-wyoming/article_e6991417-88be-410e-afde-d2ae2d9d74d7.html" target="_blank" rel="noopener noreferrer"><h3>‘I want to stop us from being Colorado’: Bextel shares her vision for Wyoming</h3><img src="https://bloximages.chicago2.vip.townnews.com/wyomingnews.com/content/tncms/assets/v3/editorial/b/8a/b8ab99a3-4936-4d7d-ad9d-e7242ef08c26/6acfbf9c45cef.image.jpg?crop=1763%2C926%2C0%2C124&amp;resize=1200%2C630&amp;order=crop%2Cresize" alt="" loading="lazy" referrerpolicy="no-referrer"><p>ROCK SPRINGS — What started as an effort to recruit a placeholder candidate for the Constitution Party has instead placed lifelong Republican Rebecca Bextel at the center of Wyoming’s gubernatorial</p><div class="safe-news-meta">wyomingnews.com - 1d</div></a><a class="safe-news-card" href="https://yellowscene.com/2026/10/15/colorado-state-university-final-update-on-oct-12-incident/" target="_blank" rel="noopener noreferrer"><h3>Colorado State University Final Update On Oct. 12 Incident</h3><img src="https://yellowscene.com/wp-content/uploads/2026/10/officer-involved-shooting-newton-plaza-colorado-state-university.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>CSUPD determined there was no ongoing threat to campus on Monday, Oct. 12, and the incident was not an active shooter incident.</p><div class="safe-news-meta">yellowscene.com - 1d</div></a><a class="safe-news-card" href="https://www.worldatlas.com/county/how-a-new-county-gets-created-in-america.html" target="_blank" rel="noopener noreferrer"><h3>How A New County Gets Created In America</h3><img src="https://www.worldatlas.com/r/w1200-q80/upload/b0/27/95/shutterstock-222278563-s3cdn.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Each state must decide whether a county can be created, who gets a vote, and what conditions the proposed county must meet.</p><div class="safe-news-meta">worldatlas.com - 1d</div></a><a class="safe-news-card" href="https://www.mansionglobal.com/articles/glassy-ski-in-ski-out-mansion-in-snowmass-colorado-sells-for-19-75-million-3b4e8bb7" target="_blank" rel="noopener noreferrer"><h3>Glassy Ski-in, Ski-Out Mansion in Snowmass, Colorado, Sells for $19.75 Million</h3><img src="https://images.mansionglobal.com/im-77884225/social" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The deal marks the priciest residential sale this year in the mountain town near Aspen</p><div class="safe-news-meta">mansionglobal.com - 1d</div></a><a class="safe-news-card" href="https://insideclimatenews.org/news/13102026/wyoming-colorado-river-measuring/" target="_blank" rel="noopener noreferrer"><h3>Momentum for Measuring Water Lost in Wyoming’s Portion of the Colorado River Dries Up</h3><img src="https://insideclimatenews.org/wp-content/uploads/2026/10/GettyImages-2277996049-1024x683.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Wyoming may resume collecting data in the Green River and Little Snake River basins as part of a future Upper Colorado River Basin project.</p><div class="safe-news-meta">insideclimatenews.org - 2d</div></a><a class="safe-news-card" href="https://www.pinkbike.com/photo/30398504/" target="_blank" rel="noopener noreferrer"><h3>in Golden, Colorado, United States - photo by RevelBikes</h3><img src="https://ep1.pinkbike.org/p4pb30398504/p4pb30398504.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Revel Ranger Ti</p><div class="safe-news-meta">pinkbike.com - 3d</div></a><a class="safe-news-card" href="https://www.cpr.org/2026/10/12/colorado-candidates-for-us-senate-face-off-in-first-debate/" target="_blank" rel="noopener noreferrer"><h3>Colorado candidates for US Senate face off in first debate</h3><img src="https://www.cpr.org/cdn-cgi/image/width=1200,height=630,fit=crop,gravity=auto,quality=75,format=auto/https:/wp-cpr.s3.amazonaws.com/uploads/2025/09/AP25267580013505.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Sen. John Hickenlooper and Mark Baisley focused more on policy than on attacks against one another.</p><div class="safe-news-meta">cpr.org - 4d</div></a><a class="safe-news-card" href="https://www.summitdaily.com/opinion/meet-candidates-colorado-us-senate-baisley-hickenlooper/" target="_blank" rel="noopener noreferrer"><h3>Q&amp;A: Meet the candidates running to represent Colorado in the US Senate</h3><img src="https://swiftmedia.s3.amazonaws.com/mountain.swiftcom.com/images/sites/2/2026/10/07142125/Hickenlooper_Baisley_SEN-1024x724.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Democratic Incumbent U.S. Sen. John Hickenlooper and Republican state Sen. Mark Baisley are facing off in the Nov. 3 election for one of Colorado’s two U.S. Senate seats. The Summit Daily asked each candidate five...</p><div class="safe-news-meta">summitdaily.com - 8d</div></a><a class="safe-news-card" href="https://coloradosun.com/2026/10/05/colorado-senate-race-candidate-guide/" target="_blank" rel="noopener noreferrer"><h3>Where John Hickenlooper, Mark Baisley stand on the issues in Colorado’s US Senate race</h3><img src="https://newspack-coloradosun.s3.amazonaws.com/wp-content/uploads/2026/10/elex-2026-senate-1.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The Colorado Sun interviewed the major party candidates running for US Senate to see where they stand on the economy, healthcare, immigration and other top issues</p><div class="safe-news-meta">coloradosun.com - 11d</div></a><a class="safe-news-card" href="https://www.blm.gov/programs/fire/regional-info/colorado" target="_blank" rel="noopener noreferrer"><h3>Programs: Fire: Regional Info: Colorado</h3><img src="https://www.blm.gov/sites/default/files/images/2024-02/blm-gov-opengraph-thumbnail.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Fire management in Colorado is an interagency partnership among federal, state and local entities.Bureau of Land Management (BLM)-managed lands within Colorado are broken into four interagency fire management units: Northwest Colorado Fire Unit in Craig, Upper Colorado River Interagency Fire Unit in Grand Junction, Southwest District Fire Unit in Montrose and Front Range District Fire Unit in Canon City.During Colorado&#x27;s fire season, which is typically May through September, BLM resources such as engines and crews are staffed five to seven days a week. Crews are staffed in staggered shifts to</p><div class="safe-news-meta">blm.gov - 14d</div></a><a class="safe-news-card" href="https://www.denvergazette.com/2026/10/02/mark-baisley-john-hickenlooper-us-senate/" target="_blank" rel="noopener noreferrer"><h3>Colorado U.S. Senate | Baisley looks to unseat Hickenlooper</h3><img src="https://www.denvergazette.com/wp-content/uploads/2026/10/Untitled-design-6.png?w=940" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Democratic Sen. John Hickenlooper and Republican state Sen. Mark Baisley are competing in Colorado&#x27;s U.S. Senate race. Compare their positions on the economy, immigration, public lands and other key issues.</p><div class="safe-news-meta">denvergazette.com - 14d</div></a><a class="safe-news-card" href="https://www.jeffco.us/4915/Federal-Impacts-to-Services" target="_blank" rel="noopener noreferrer"><h3>Federal Impacts to Services</h3><p>Find facts and resources related to federal updates.</p><div class="safe-news-meta">jeffco.us - 14d</div></a><a class="safe-news-card" href="https://www.cpr.org/2026/09/25/vg-2026-us-senate-third-party-voter-guide/" target="_blank" rel="noopener noreferrer"><h3>Voter guide for Colorado US Senate third-party candidates</h3><img src="https://www.cpr.org/cdn-cgi/image/width=1200,height=630,fit=crop,gravity=auto,quality=75,format=auto/https:/wp-cpr.s3.amazonaws.com/uploads/2026/09/260915-VOTER-GUIDE-SENATE-04.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Current Sen. John Hickenlooper is running for a second, and he says final, term in office.</p><div class="safe-news-meta">cpr.org - 21d</div></a><a class="safe-news-card" href="https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4611911/centcom-completes-exercise-eager-lion-in-colorado/" target="_blank" rel="noopener noreferrer"><h3>CENTCOM Completes Exercise Eager Lion in Colorado</h3><img src="https://media.defense.gov/2026/Sep/25/2004007204/1920/1080/0/260925-D-D0477-1001.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>COLORADO SPRINGS, Colo. — U.S. Central Command (CENTCOM) concluded Exercise Eager Lion 2026 on Sept. 24 at Fort Carson, Colorado. The two-week exercise included more than 200 military personnel from</p><div class="safe-news-meta">centcom.mil - 21d</div></a><a class="safe-news-card" href="https://www.colorado.edu/today/2026/09/24/landmark-boulder-climate-case-heading-scotus-whats-stake" target="_blank" rel="noopener noreferrer"><h3>A landmark Boulder climate case is heading to SCOTUS. What&#x27;s at stake?</h3><img src="https://www.colorado.edu/today/sites/default/files/2026-09/DSC01873.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Can state courts decide who pays for damage from climate change? As the U.S. Supreme Court prepares to consider the question, an environmental law expert</p><div class="safe-news-meta">colorado.edu - 22d</div></a><a class="safe-news-card" href="https://www.sciencedaily.com/releases/2026/09/260922005701.htm" target="_blank" rel="noopener noreferrer"><h3>One of America’s largest reservoirs just hit a record low</h3><img src="https://www.sciencedaily.com/images/1920/lake-powell-drops-to-record-low-levels.webp" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Lake Powell has fallen to its lowest level on record after an exceptionally dry and warm winter left the Colorado River Basin with little mountain snow to melt. Lake Mead also reached record lows, raising concerns for a river system that supplies water and power to more than 40 million people. Federal officials have taken emergency steps to stabilize Lake Powell, including sending in water from another reservoir and reducing releases downstream.</p><div class="safe-news-meta">sciencedaily.com - 24d</div></a><a class="safe-news-card" href="https://www.army.mil/article/295491/transmission_line_project_strengthens_colorado_springs_electric_reliability" target="_blank" rel="noopener noreferrer"><h3>Transmission line project strengthens Colorado Springs’ electric reliability</h3><img src="https://api.army.mil/e2/c/images/2026/09/18/eca4c7cf/max1200.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>(Editor’s note: The following article and courtesy photo were provided by Colorado Springs Utilities, Fort Carson’s utility provider.)COLORADO SPRINGS,...</p><div class="safe-news-meta">army.mil - 27d</div></a><a class="safe-news-card" href="https://ussoccer.com/stories/2026/09/usoc/colorado-rapids-defender-rob-holding-bringing-the-magic-of-fa-cup-to-us-open-cup" target="_blank" rel="noopener noreferrer"><h3>Colorado Rapids Defender Rob Holding Bringing the Magic of the FA Cup to the U.S. Open Cup</h3><img src="https://content.ussoccer.com/media/images/oyf3dba6/production/9d1b50c6d83a9ec09d8fa188f0dd072a8649bb3c-2400x2400.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>A year into his American adventure, the two-time FA Cup winner with Arsenal has his sights set on delivering Colorado its first U.S. Open Cup title</p><div class="safe-news-meta">ussoccer.com - 30d</div></a><a class="safe-news-card" href="https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4601351/centcom-hosts-jordan-for-exercise-eager-lion-in-colorado/" target="_blank" rel="noopener noreferrer"><h3>CENTCOM Hosts Jordan for Exercise Eager Lion in Colorado</h3><img src="https://media.defense.gov/2026/Sep/15/2003997936/1920/1080/0/260915-D-D0477-1002.JPG" alt="" loading="lazy" referrerpolicy="no-referrer"><p>COLORADO SPRINGS, Colo. — U.S. Central Command On Sept. 15, U.S. Central Command (CENTCOM) and the Jordanian Armed Forces kicked off exercise Eager Lion 2026 at Fort Carson in Colorado.</p><div class="safe-news-meta">centcom.mil - 31d</div></a><a class="safe-news-card" href="https://coloradosun.com/2026/09/09/united-states-mexico-colorado-river-deal/" target="_blank" rel="noopener noreferrer"><h3>US strikes Colorado River deal with Mexico</h3><img src="https://newspack-coloradosun.s3.amazonaws.com/wp-content/uploads/2023/08/AP23226815806941-3-scaled.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The short-term deal, which comes on the heels of big water cuts for three Western states, includes more cuts for Mexico.</p><div class="safe-news-meta">coloradosun.com - 36d</div></a><a class="safe-news-card" href="https://www.nature.org/en-us/newsroom/co-river-collaboration/" target="_blank" rel="noopener noreferrer"><h3>Continuing Collaboration for the Colorado River Delta</h3><img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/m/a/MAG24010_240429_00268_Colorado_River_Mexico.jpeg?crop=0%2C590%2C5272%2C2767&amp;wid=1200&amp;hei=630&amp;scl=4.3933333333333335" alt="" loading="lazy" referrerpolicy="no-referrer"><p>New Minute 334 Agreement Charts Adaptive Course for U.S.-Mexico Colorado River Management, Sustains Environmental Commitments in the Delta.</p><div class="safe-news-meta">nature.org - 37d</div></a><a class="safe-news-card" href="https://www.ncei.noaa.gov/news/national-climate-202608" target="_blank" rel="noopener noreferrer"><h3>Monitoring the U.S. Temperature and Precipitation in August 2026</h3><img src="https://www.ncei.noaa.gov/sites/default/files/sites/default/files/Colorado%20River%201200x480.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The average temperature for the CONUS in August was 75.6°F, 3.5°F above the 20th-century average, while the average for meteorological summer (June–August) was 74.4°F, 3.0°F above average.</p><div class="safe-news-meta">ncei.noaa.gov - 37d</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
